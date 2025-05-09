@@ -3,3 +3,4 @@ Pillow
 exif
 folium
 streamlit-folium
+piexif
