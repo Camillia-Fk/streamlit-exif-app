@@ -141,8 +141,8 @@ def formulaire_modification(exif_img):
             st.success("Modifications enregistrées !")
 
 
-#Affiche sur une carte Folium la position GPS extraite des métadonnées EXIF 
-#   d'une image, si les données GPS sont présentes.
+# --- Affiche sur une carte Folium la position GPS extraite des métadonnées EXIF 
+# d'une image, si les données GPS sont présentes.---
 def afficher_carte_position(exif_img):
     try:
         # Récupère les coordonnées GPS sous forme de tuples (degrés, minutes, secondes)
@@ -226,7 +226,7 @@ def afficher_carte_voyages():
 
 
 
-# --- 7. Main ---
+# --- Main ---
 def main():
     st.title("Éditeur EXIF avec cartes de voyage")
     path = "paysage.jpg"
